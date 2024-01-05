@@ -13,12 +13,12 @@ public class LotteryToys {
 
         UI ui = new UI();
 
-        Toy airplane = new Toy(counter.get_id(), "Самолет", 10, 15);
-        Toy truck = new Toy(counter.get_id(), "Грузовик", 100, 35);
-        Toy ball = new Toy(counter.get_id(), "Мяч", 200, 45);
-        Toy doll = new Toy(counter.get_id(), "Кукла", 200, 45);
-        Toy rubikCube = new Toy(counter.get_id(), "Кубик рубик", 200, 65);
-        Toy soupBubbles = new Toy(counter.get_id(), "Мыльнуе пузыри", 20, 20);
+        Toy airplane = new Toy(counter.get_id(), "Airplane", 10, 15);
+        Toy truck = new Toy(counter.get_id(), "Truck", 100, 35);
+        Toy ball = new Toy(counter.get_id(), "Ball", 200, 45);
+        Toy doll = new Toy(counter.get_id(), "Doll", 200, 45);
+        Toy rubikCube = new Toy(counter.get_id(), "Rubik Cube", 200, 65);
+        Toy soupBubbles = new Toy(counter.get_id(), "Soup Bubbles", 20, 20);
 
         store.add_Toy(airplane);
         store.add_Toy(truck);
